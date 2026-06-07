@@ -32,7 +32,6 @@ function App() {
       <section className="text-center py-24">
 
         <h2 className="text-5xl font-bold mb-4">
-          Hi, I'm
           <span className="text-cyan-400"> Dharmavarshini</span>
         </h2>
 
@@ -61,6 +60,52 @@ function App() {
         </p>
       </section>
 
+{/* Certificates */}
+
+<section
+  id="certificates"
+  className="max-w-5xl mx-auto p-6 mt-16"
+>
+  <h2 className="text-4xl font-bold text-cyan-400 mb-8">
+    Certificates
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-6">
+
+    {/* Certificate 1 */}
+
+    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition">
+      <h3 className="text-2xl font-bold mb-3">
+        Code Craft
+      </h3>
+
+      <p className="text-gray-400">
+        Holy Cross College (Autonomous)
+      </p>
+
+      <span className="inline-block mt-4 bg-cyan-500 text-black px-4 py-2 rounded-full font-semibold">
+        Certified
+      </span>
+    </div>
+
+    {/* Certificate 2 */}
+
+    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition">
+      <h3 className="text-2xl font-bold mb-3">
+        Gesture Control + Obstacle Avoiding Car
+      </h3>
+
+      <p className="text-gray-400">
+        Jamal Mohamed College (Autonomous), Trichy
+      </p>
+
+      <span className="inline-block mt-4 bg-cyan-500 text-black px-4 py-2 rounded-full font-semibold">
+        Project Certificate
+      </span>
+    </div>
+
+  </div>
+</section>
       {/* Skills */}
 
       <section
@@ -128,43 +173,64 @@ function App() {
         </div>
       </section>
 
-      {/* Contact */}
+     {/* Contact */}
 
-      <section
-        id="contact"
-        className="max-w-5xl mx-auto p-6 mt-16"
-      >
-        <h2 className="text-4xl font-bold text-cyan-400 mb-8">
-          Contact Me
-        </h2>
+<section
+  id="contact"
+  className="max-w-5xl mx-auto p-6 mt-16"
+>
+  <h2 className="text-4xl font-bold text-cyan-400 mb-8">
+    Contact Me
+  </h2>
 
-        <div className="bg-gray-900 p-8 rounded-xl border border-gray-700">
+  <div className="bg-gray-900 p-8 rounded-xl border border-gray-700">
 
-          <p className="mb-3">
-            📧 Email:
-            dharmavarshini567@gmail.com
-          </p>
+    <div className="space-y-4">
 
-          <p>
-            📱 Phone:
-            9361629676
-          </p>
+      <p>
+        <span className="font-bold text-cyan-400">
+          📧 Email:
+        </span>
+        <br />
+        dharmavarshini567@gmail.com
+      </p>
 
-        </div>
-      </section>
+      <p>
+        <span className="font-bold text-cyan-400">
+          📱 Phone:
+        </span>
+        <br />
+        9361629676
+      </p>
 
-      {/* Footer */}
-
-      <footer className="text-center py-8 mt-16 border-t border-gray-800">
-
-        <p className="text-gray-500">
-          © 2026 Dharmavarshini | Thank You For Visiting ❤️
-        </p>
-
-      </footer>
+      <p>
+        <span className="font-bold text-cyan-400">
+          📍 Address:
+        </span>
+        <br />
+        303, Trichy Main Road,
+        <br />
+        Keeranur,
+        <br />
+        Pudukkottai District - 622502
+      </p>
 
     </div>
-  );
+
+  </div>
+</section>
+{/* Footer */}
+
+<footer className="text-center py-8 mt-16 border-t border-gray-800">
+
+  <p className="text-gray-500">
+    © 2026 Dharmavarshini | Thank You For Visiting ❤️
+  </p>
+
+</footer>
+
+</div>
+);
 }
 
 export default App;
